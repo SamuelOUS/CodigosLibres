@@ -8,7 +8,15 @@ from ProyectoRequisitos.Formulario.form_master import MasterPanel
 class App:
 
     def verificar(self):
-        pass
+        usu = self.usuario.get()
+        passw = self.password.get()
+
+        if usu == "Pacho" and passw == "1234":
+            self.ventana.destroy()
+            MasterPanel()
+
+        else:
+            messagebox.showerror(message="datos incorrectos", title='error')
 
     def userRegister(self):
         pass
