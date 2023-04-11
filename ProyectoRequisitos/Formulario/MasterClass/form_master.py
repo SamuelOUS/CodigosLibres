@@ -1,6 +1,4 @@
 import tkinter as tk
-from tkinter.font import BOLD
-import ProyectoRequisitos.Util.generic as utl
 
 
 class MasterPanel:
@@ -12,6 +10,5 @@ class MasterPanel:
         self.ventana.config(bg='#fcfcfc')
         self.ventana.resizable(False, False)
         label = tk.Label(self.ventana, bg="#F19A83")
-        label.place(x=0, y=0, relheight=1,  relwidth=1)
+        label.place(x=0, y=0, relheight=1, relwidth=1)
         self.ventana.mainloop()
-
