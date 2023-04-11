@@ -1,4 +1,10 @@
-
 from ProyectoRequisitos.Formulario.Login.form_login import FormLogin
 
-FormLogin()
+
+class App:
+    def ejecutar(self):
+        FormLogin()
+
+
+app = App()
+app.ejecutar()
