@@ -14,7 +14,7 @@ class RegistrationWindowDesign:
         self.ventana.geometry('500x750')
         self.ventana.config(bg="#F19A83")
         self.ventana.resizable(False, False)
-        utl.centrar_ventana(self.ventana, 500, 450)
+        utl.centrar_ventana(self.ventana, 500, 750)
 
         frame_form = tk.Frame(self.ventana, bd=0, relief=tk.SOLID, bg="#3D5064")
         frame_form.pack(side="right", expand=tk.YES, fill=tk.BOTH)
