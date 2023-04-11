@@ -11,7 +11,7 @@ class RegistrationWindowDesign:
     def __init__(self):
         self.ventana = tk.Tk()
         self.ventana.title('registro')
-        self.ventana.geometry('500x150')
+        self.ventana.geometry('500x750')
         self.ventana.config(bg="#F19A83")
         self.ventana.resizable(False, False)
         utl.centrar_ventana(self.ventana, 500, 450)
