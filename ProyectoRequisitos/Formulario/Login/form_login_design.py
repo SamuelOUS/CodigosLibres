@@ -1,7 +1,7 @@
 import tkinter as tk
 from tkinter import ttk, messagebox
 import ProyectoRequisitos.Util.generic as utl
-from ProyectoRequisitos.Formulario.MasterClass.form_master import MasterPanel
+from ProyectoRequisitos.Formulario.MasterClass.form_master_design import MasterPanelDesign
 
 
 class FormLoginDesign:
